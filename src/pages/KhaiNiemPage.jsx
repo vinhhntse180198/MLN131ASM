@@ -23,7 +23,11 @@ export default function KhaiNiemPage() {
             <h2 id="etymology-title" style={{ fontSize: '1.15rem', marginTop: 0 }}>
               📜 {etymology.title}
             </h2>
-            <p style={{ color: 'var(--c4-muted)', lineHeight: 1.65 }}>{etymology.intro}</p>
+            {etymology.paragraphs.map((paragraph) => (
+              <p key={paragraph.slice(0, 48)} style={{ color: 'var(--c4-muted)', lineHeight: 1.65 }}>
+                {paragraph}
+              </p>
+            ))}
           </div>
           <div className="c4-scroll-reveal-item c4-etymology__box">
             <h4>Demoskratos</h4>
@@ -109,6 +113,7 @@ export default function KhaiNiemPage() {
           <p className="c4-scroll-reveal-item" style={{ color: 'var(--c4-muted)', lineHeight: 1.65, margin: 0 }}>
             {hcm.intro}
           </p>
+          <p className="c4-scroll-reveal-item c4-hcm__detail">“{hcm.detail}”</p>
           <div className="c4-hcm__pillars">
             {hcm.pillars.map((p) => (
               <div key={p.title} className="c4-scroll-reveal-item c4-hcm__pillar">

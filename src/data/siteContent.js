@@ -26,10 +26,14 @@ export const paths = {
   home: '/',
   concepts: '/khai-niem',
   history: '/lich-su',
+  socialist: '/xa-hoi-chu-nghia',
+  game: '/game',
 }
 
 export const navLinks = [
   { to: paths.home, label: 'Trang chủ' },
   { to: paths.concepts, label: 'Khái niệm' },
   { to: paths.history, label: 'Lịch sử' },
+  { to: paths.socialist, label: 'Xã hội chủ nghĩa' },
+  { to: paths.game, label: 'Game' },
 ]

@@ -2,7 +2,7 @@ export const historyPage = {
   eyebrow: 'TIẾN TRÌNH LỊCH SỬ',
   title: 'Sự ra đời và phát triển của Dân chủ',
   intro:
-    'Lịch sử nhân loại đã trải qua các hình thái dân chủ gắn liền với các chế độ xã hội khác nhau — từ dân chủ nguyên thủy đến dân chủ xã hội chủ nghĩa (Phần I.1.b).',
+    'Lịch sử nhân loại đã trải qua các hình thái dân chủ gắn liền với các chế độ xã hội khác nhau — từ dân chủ nguyên thủy, chủ nô, phong kiến đến dân chủ tư sản (Phần I.1.b).',
   sidebarTitle: 'Tiến Trình Lịch Sử',
   sidebarSubtitle: 'Từ sơ khai đến hiện đại',
   overviewBtn: 'Xem toàn cảnh',
@@ -81,24 +81,6 @@ export const timelineStages = [
       'Hạn chế: Được xây dựng trên nền tảng kinh tế là chế độ tư hữu về tư liệu sản xuất, nên thực tế vẫn là nền dân chủ của thiểu số những người nắm giữ tư liệu sản xuất đối với đại đa số nhân dân lao động.',
     ],
   },
-  {
-    id: 'dan-chu-xhcn',
-    sidebarLabel: 'Xã Hội Chủ Nghĩa',
-    formLabel: 'HÌNH THÁI 5',
-    stageLabel: 'Đỉnh cao phát triển',
-    title: 'Dân chủ xã hội chủ nghĩa',
-    subtitle: 'Vô sản',
-    icon: '📢',
-    iconTone: 'maroon',
-    imageUrl: '/images/lich-su-hinh-thai-5.png',
-    imageCaption: 'THE PEOPLE IN HISTORY — PARIS',
-    highlight: true,
-    paragraphs: [
-      'Được phôi thai từ thực tiễn đấu tranh giai cấp ở Pháp và Công xã Paris (1871), chính thức xác lập sau Cách mạng Tháng Mười Nga (1917).',
-      'Đặc trưng: Là nền dân chủ cao hơn về chất so với dân chủ tư sản; thực hiện quyền lực của đại đa số nhân dân; xây dựng nhà nước của nhân dân, do nhân dân và vì nhân dân.',
-      'Mục tiêu: Giải phóng con người, lôi cuốn nhân dân tham gia tự giác vào công việc quản lý nhà nước và xã hội.',
-    ],
-  },
 ]
 
 export const slideSummary = {
@@ -106,6 +88,6 @@ export const slideSummary = {
   items: [
     'Khái niệm: Dân chủ là quyền lực của dân (Demoskratos); là hình thức nhà nước; là nguyên tắc tổ chức xã hội.',
     'Hồ Chí Minh: “Dân là chủ” và “Dân làm chủ”.',
-    'Tiến trình: Nguyên thủy → Chủ nô → Phong kiến (triệt tiêu) → Tư sản → XHCN (đại đa số).',
+    'Tiến trình lịch sử: Nguyên thủy → Chủ nô → Phong kiến (triệt tiêu) → Tư sản.',
   ],
 }
